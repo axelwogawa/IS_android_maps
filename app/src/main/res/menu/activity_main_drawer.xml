@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Karte" />
+
+    <group android:checkableBehavior="single">
+        <item android:title="Mensen">
+            <menu>
+                <item
+                    android:id="@+id/alte_Mensa"
+                    android:icon="@drawable/ic_restaurant"
+                    android:title="Alte Mensa" />
+                <item
+                    android:id="@+id/neue_Mensa"
+                    android:icon="@drawable/ic_restaurant"
+                    android:title="Neue Mensa" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Öffentliche Verkehrsmittel">
+            <menu>
+                <item
+                    android:id="@+id/münchen"
+                    android:icon="@drawable/ic_haltestelle"
+                    android:title="Münchener Platz" />
+                <item
+                    android:id="@+id/nürenberg"
+                    android:icon="@drawable/ic_haltestelle"
+                    android:title="Nürnberger Platz" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Fakultäten">
+            <menu>
+                <item
+                    android:id="@+id/adb"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Informatik Fakultät" />
+            </menu>
+        </item>
+    </group>
+
+
+<!--
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Alte Mensa" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Neue Mensa" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+!-->
+
+</menu>
